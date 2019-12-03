@@ -13,7 +13,7 @@ export default class WhiteHeart extends React.Component{
             style={styles.button} 
             onPress={() => this.props.clicked()}
             >
-                <Text style={styles.text}>Favorite Button</Text>
+                <Text style={styles.text}>Favorite</Text>
             </TouchableOpacity>
         </View>
     )

@@ -42,7 +42,7 @@ export default class ShoeSpecificScreen extends React.Component{
                     <AddButton/>
                     <FavoriteButton/>
                     <Description item={this.state.item}/>
-                    <Reviews/>
+                    {/* <Reviews/> */}
                     <Suggestions item={this.state.item} changeShoe={this.changeShoe}/>
                     <SafeArea/>
                 </ScrollView>

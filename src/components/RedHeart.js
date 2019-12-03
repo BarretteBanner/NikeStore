@@ -13,7 +13,7 @@ export default class RedHeart extends React.Component{
             style={styles.button} 
             onPress={() => this.props.clicked()}
             >
-                <Text style={styles.text}>Favorite Button</Text>
+                <Text style={styles.text}>Unfavorite</Text>
             </TouchableOpacity>
         </View>
     )
@@ -28,7 +28,7 @@ component:{
 },
 button:{
     height: 60,
-    backgroundColor:'red',
+    backgroundColor:'white',
     borderWidth: 1,
     borderRadius: 60,
     marginHorizontal: '5%',

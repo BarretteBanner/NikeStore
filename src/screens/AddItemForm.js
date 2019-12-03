@@ -3,16 +3,16 @@ import {ScrollView, View, Text, TextInput, StyleSheet, Button} from 'react-nativ
 
 export default class AddItemForm extends React.Component{
     state = {
-        name: 'Nike Air Zoom Wildhorse 5',
+        name: 'Nike Air Zoom Pegasus 36 Trail',
         category: 'Shoe',
-        sub_category: 'Trail Running Shoe',
+        sub_category: "Trail Running Shoe",
         gender: 'Mens',
-        description: 'Built specifically for trails, the Nike Air Zoom Wildhorse 5 keeps you galloping over rough terrain in breathable, multi-layer fabric. A rock plate helps shield your foot, while a Zoom Air heel unit cushions your stride on and off the path.',
-        price: 110,
-        style: ' AQ2222-200',
-        offset: '8mm (12mm forefoot, 20mm heel)',
-        weight: "10.66 oz. (men's size 10)",
-        main_picture: 'https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/essaqupo9duvwuhjpvpz/air-zoom-wildhorse-5-mens-trail-running-shoe-n1cZFD.jpg'
+        description: "An icon trades pavement for path with the Nike Air Zoom Pegasus 36 Trail. Give your feet some fresh air in a perforated mesh upper, as double Zoom Air units underfoot cushion your stride. Opposing lugs on outsole optimize traction on your uphill climbs.",
+        price: 130,
+        style: 'AR5677-200',
+        offset: '10mm (13.5mm forefoot, 23.5mm heel)',
+        weight: "10.28 oz. (men's size 10)",
+        main_picture: 'https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/nbtzzncncskmnkzuqy9i/air-zoom-pegasus-36-trail-mens-trail-running-shoe-2T39mR.jpg'
 
     }
 

@@ -46,11 +46,11 @@ const styles = StyleSheet.create({
         marginBottom: '15%'
     },
     info:{
-        height: '10%',
+        height: '0%',
         backgroundColor: 'green'
     },
     list:{
-        height: '90%',
+        height: '100%',
         backgroundColor: 'white'
     }
 })
