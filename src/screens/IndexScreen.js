@@ -1,6 +1,8 @@
 import React from 'react'
 import {View, ScrollView, Text, StyleSheet, FlatList, TouchableOpacity} from 'react-native'
 import ItemPreview from '../components/ItemPreview'
+import {AntDesign} from '@expo/vector-icons'
+
 
 export default class IndexScreen extends React.Component{
     state = {
@@ -39,6 +41,16 @@ export default class IndexScreen extends React.Component{
     }
 }
 
+IndexScreen.navigationOptions = ({navigation}) => {
+    return{
+       //headerTitle: 'Upcoming Appointments',
+        headerRight: 
+            <TouchableOpacity onPress={() => navigation.navigate('Cart')}>
+                <AntDesign name='shoppingcart' size={27} style={styles.cart}/>
+            </TouchableOpacity>
+    }
+}
+
 const styles = StyleSheet.create({
     screen:{
         height: 750,
@@ -52,5 +64,8 @@ const styles = StyleSheet.create({
     list:{
         height: '100%',
         backgroundColor: 'white'
+    },
+    cart:{
+        marginRight: 10
     }
 })

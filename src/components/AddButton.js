@@ -1,13 +1,16 @@
 import React from 'react'
-import {View, Text, StyleSheet} from 'react-native'
+import {View, Text, StyleSheet, TouchableOpacity} from 'react-native'
 
 export default class AddButton extends React.Component{
     render(){
         return(
             <View style={styles.component}>
-                <View style={styles.button}>
-                    <Text style={styles.text}>Add to Cart</Text>
-                </View>
+                <TouchableOpacity onPress={() => this.props.addItem()}>
+                    <View style={styles.button}>
+                        <Text style={styles.text}>Add to Cart</Text>
+                    </View>
+                </TouchableOpacity>
+                
             </View>
         )
     }

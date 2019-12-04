@@ -3,7 +3,7 @@ import {ScrollView, View, Text, TextInput, StyleSheet, Button} from 'react-nativ
 
 export default class AddBenefitForm extends React.Component{
     state = {
-        item_id: 2,
+        item_id: 1,
         benefit: 'GORE-TEX in the upper helps keep your feet dry even in wet conditions.'
     }
 

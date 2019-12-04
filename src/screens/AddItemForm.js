@@ -3,16 +3,16 @@ import {ScrollView, View, Text, TextInput, StyleSheet, Button} from 'react-nativ
 
 export default class AddItemForm extends React.Component{
     state = {
-        name: 'Nike Air Zoom Pegasus 36 Trail',
+        name: 'Nike Free RN 5.0 NRG',
         category: 'Shoe',
-        sub_category: "Trail Running Shoe",
+        sub_category: "Running Shoe",
         gender: 'Mens',
-        description: "An icon trades pavement for path with the Nike Air Zoom Pegasus 36 Trail. Give your feet some fresh air in a perforated mesh upper, as double Zoom Air units underfoot cushion your stride. Opposing lugs on outsole optimize traction on your uphill climbs.",
-        price: 130,
-        style: 'AR5677-200',
-        offset: '10mm (13.5mm forefoot, 23.5mm heel)',
-        weight: "10.28 oz. (men's size 10)",
-        main_picture: 'https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/nbtzzncncskmnkzuqy9i/air-zoom-pegasus-36-trail-mens-trail-running-shoe-2T39mR.jpg'
+        description: "An ideal performer for runs up to 3 miles, the Nike Free RN 5.0 NRG returns to its roots as a running shoe. Lightweight, single layer mesh in the upper provides more stretch to feel like a second skin. Less foam in the midsole means you're ready to hit the ground running.",
+        price: 74.97,
+        style: 'CI0811-808',
+        offset: '6mm (14mm forefoot, 20 mm heel)',
+        weight: "8.34 oz. (men's size 10)",
+        main_picture: 'https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/tvpnzblv7sska8blqxf9/free-rn-5-nrg-mens-running-shoe-8wmnkJ.jpg'
 
     }
 

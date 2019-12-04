@@ -6,6 +6,9 @@ import AddItemForm from './src/screens/AddItemForm';
 import AddPictureForm from './src/screens/AddPictureForm';
 import AddBenefitForm from './src/screens/AddBenefitForm';
 import Test from './src/screens/Test';
+import AddReview from './src/screens/AddReview';
+import CartScreen from './src/screens/CartScreen';
+import CheckoutScreen from './src/screens/CheckoutScreen';
 
 const navigator = createStackNavigator({
   Index: IndexScreen,
@@ -13,7 +16,10 @@ const navigator = createStackNavigator({
   NewItem: AddItemForm,
   NewPicture: AddPictureForm,
   NewBenefit: AddBenefitForm,
-  Test: Test
+  Test: Test,
+  NewReview: AddReview,
+  Cart: CartScreen,
+  Checkout: CheckoutScreen
 }, {
   initialRouteName: 'Index',
   defaultNavigationOptions: {
